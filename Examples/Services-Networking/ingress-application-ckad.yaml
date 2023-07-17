@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: simple-webapp
-        image: kodekloud/ecommerce:apparels
+        image: docker.io/kodekloud/ecommerce:apparels
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
       - name: simple-webapp
-        image: kodekloud/ecommerce:video
+        image: docker.io/kodekloud/ecommerce:video
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -97,7 +97,7 @@ spec:
       containers:
       - name: simple-webapp
         imagePullPolicy: Always
-        image: kodekloud/ecommerce:404
+        image: docker.io/kodekloud/ecommerce:404
         ports:
         - containerPort: 8080
 
